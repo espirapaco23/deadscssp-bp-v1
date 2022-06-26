@@ -1,0 +1,155 @@
+---
+layout: default
+title: Post
+---
+
+<article class="post">
+  <div class="post__actions">
+    <a href="#">back</a>
+    <a href="#">
+      share
+      <img
+        class="post__actions-icon"
+        src="assets/images/share.svg"
+        alt="share"
+      />
+    </a>
+  </div>
+
+  <div class="post__header post__header--open">
+    <h1 class="post__title post__title--open">
+      Lorem ipsum dolor sit amet consectetur.
+    </h1>
+    <ul class="post__data">
+      <li class="post__data-item">
+        <time datetime="2020-06-21 19:20">21.06.2020</time>
+      </li>
+      <li class="post__data-item">
+        <a href="#">Lorem, ipsum.</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="post__content">
+    <div class="post__text">
+      <h2>title h2</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur
+        ratione repellat hic, inventore laborum iure quod similique! Dolore
+        animi impedit laboriosam quos velit consequatur ab magni molestiae
+        dolores magnam, maiores, eum non natus. Nemo perferendis libero sint
+        consequuntur, ab, amet nesciunt fuga deserunt eligendi, itaque veniam?
+        Reiciendis, voluptas esse.
+      </p>
+      <h3>title3</h3>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam voluptates
+        molestias voluptatem accusamus perferendis tenetur nostrum cum, quo amet
+        consequuntur.
+      </p>
+      <h4>title4</h4>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+        recusandae cupiditate ipsa rerum cumque aut odit corrupti quidem unde
+        nihil.
+      </p>
+
+      <p>
+        <img src="assets/images/image.jpg" alt="" />
+      </p>
+    </div>
+    <div class="related">
+      <h3 class="post__subtitle">Read More</h3>
+      <ul class="related__list">
+        <li class="related__list-item">
+          <h4 class="related__list-title">
+            <a href="#">Lorem ipsum dolor sit amet.</a>
+          </h4>
+          <time class="related__list-date" datetime="2020-06-21"
+            >21.06.2020</time
+          >
+        </li>
+        <li class="related__list-item">
+          <h4 class="related__list-title">
+            <a href="#">Lorem ipsum dolor sit amet.</a>
+          </h4>
+          <time class="related__list-date" datetime="2020-06-21"
+            >21.06.2020</time
+          >
+        </li>
+        <li class="related__list-item">
+          <h4 class="related__list-title">
+            <a href="#">Lorem ipsum dolor sit amet.</a>
+          </h4>
+          <time class="related__list-date" datetime="2020-06-21"
+            >21.06.2020</time
+          >
+        </li>
+        <li class="related__list-item">
+          <h4 class="related__list-title">
+            <a href="#">Lorem ipsum dolor sit amet.</a>
+          </h4>
+          <time class="related__list-date" datetime="2020-06-21"
+            >21.06.2020</time
+          >
+        </li>
+      </ul>
+    </div>
+
+    <h3 class="post__subtitle">comments</h3>
+    <form class="form" action="/" method="post">
+      <div class="form__group">
+        <textarea
+          class="form__control form__control--textarea"
+          name="comment-text"
+          placeholder="text area"
+          data-autoresize
+        ></textarea>
+        <span class="form__line"></span>
+      </div>
+      <button class="btn btn--blue btn--rounded btn--sm" type="submit">
+        send message
+      </button>
+    </form>
+    <ul class="comments">
+      <li class="comments__item">
+        <div class="comments__header">
+          <img class="comments__avatar" src=
+          https://via.placeholder.com/30.png/09f/fff alt="" />
+          <div class="comments__author">
+            <div class="comments__name">Crocodil Gena</div>
+            <time class="comments__pubdate" datetime="2020-12-21 19:21"
+              >1 week ago</time
+            >
+          </div>
+        </div>
+        <div class="comments__text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, quidem
+          non facilis quasi est nisi rerum nam temporibus suscipit enim hic. Ad
+          ab debitis odit nisi incidunt quis veritatis laborum.
+        </div>
+        <button class="comments__reply" type="button">reply</button>
+        <ul class="comments">
+          <li class="comments__item">
+            <div class="comments__header">
+              <img class="comments__avatar" src=
+              https://via.placeholder.com/30.png/09f/fff alt="" />
+              <div class="comments__author">
+                <div class="comments__name">Crocodil Gena</div>
+                <time class="comments__pubdate" datetime="2020-12-21 19:21"
+                  >1 week ago</time
+                >
+              </div>
+            </div>
+            <div class="comments__text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi,
+              quidem non facilis quasi est nisi rerum nam temporibus suscipit
+              enim hic. Ad ab debitis odit nisi incidunt quis veritatis laborum.
+            </div>
+            <button class="comments__reply" type="button">reply</button>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</article>

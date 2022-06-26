@@ -1,0 +1,54 @@
+---
+layout: default
+title: Profile
+---
+
+<h1 class="page__title">Profile</h1>
+
+<form action="/" class="form" method="post">
+  <div class="cabinet">
+    <div class="cabinet__form">
+      <div class="form__group form__group--md">
+        <input
+          type="text"
+          class="form__control"
+          placeholder="your name"
+          value="crocodile Dandi"
+        />
+        <span class="form__line"></span>
+      </div>
+
+      <div class="form__group form__group--md">
+        <input
+          type="email"
+          class="form__control"
+          placeholder="e-mail"
+          value="igornefedov23@icloud.com"
+        />
+        <span class="form__line"></span>
+      </div>
+
+      <div class="form__group form__group--md">
+        <input type="password" class="form__control" placeholder="password" />
+        <span class="form__line"></span>
+      </div>
+
+      <div class="form__group form__group--md">
+        <input type="password" class="form__control" placeholder="confirm" />
+        <span class="form__line"></span>
+      </div>
+    </div>
+    <div class="cabinet__avatar">
+      <img src="https:/via.placeholder.com/150" alt="" />
+      <label class="cabinet__file">
+        <input type="file" />
+        choose photo
+      </label>
+    </div>
+  </div>
+  <div class="form__footer">
+    <button class="btn btn--blue btn--rounded btn--sm" type="submit">
+      save
+    </button>
+  </div>
+</form>

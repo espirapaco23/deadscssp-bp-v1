@@ -1,0 +1,193 @@
+---
+layout: default
+title: BLOG | Home
+---
+
+<div class="stories">
+  <div class="stories__item" data-modal="story-modal">
+    <img
+      class="stories__preview"
+      src="assets/images/stories/stories-1.jpg"
+      alt=""
+    />
+    <div class="stories__title">Lorem, ipsum dolor.</div>
+    <time class="stories__date" datetime="2121-10-21 21:21">21.10.2121</time>
+  </div>
+  <div class="stories__item">
+    <img
+      class="stories__preview"
+      src="assets/images/stories/stories-2.jpg"
+      alt=""
+    />
+    <div class="stories__title">Lorem, ipsum dolor.</div>
+    <time class="stories__date" datetime="2121-10-21 21:21">21.10.2121</time>
+  </div>
+  <div class="stories__item">
+    <img
+      class="stories__preview"
+      src="assets/images/stories/stories-3.jpg"
+      alt=""
+    />
+    <div class="stories__title">Lorem, ipsum dolor.</div>
+    <time class="stories__date" datetime="2121-10-21 21:21">21.10.2121</time>
+  </div>
+  <div class="stories__item">
+    <img
+      class="stories__preview"
+      src="assets/images/stories/stories-4.jpg"
+      alt=""
+    />
+    <div class="stories__title">Lorem, ipsum dolor.</div>
+    <time class="stories__date" datetime="2121-10-21 21:21">21.10.2121</time>
+  </div>
+</div>
+
+<div class="add-post">
+  <form class="add-post__form" action="/" method="post">
+    <textarea
+      class="add-post__textarea"
+      name="post-text"
+      placeholder="post there"
+      data-autoresize
+    ></textarea>
+    <div class="add-post__form-actions">
+      <label class="add-post__file" for="add-post-file">
+        <input type="file" id="add-post-file" />
+      </label>
+      <button class="add-post__send" type="submit">send</button>
+    </div>
+  </form>
+</div>
+
+<div class="post">
+  <div class="post__content">
+    <p class="post__description">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos
+      incidunt debitis quasi eum amet error distinctio quaerat. Vero quis quo
+      tempora, dolore qui soluta unde velit odio, asperiores amet quasi cumque
+      rem beatae minus perferendis? Quidem omnis consequuntur nam. Dignissimos!
+    </p>
+  </div>
+  <div class="post__footer">
+    <ul class="post__data">
+      <li class="post__data-item">
+        <time datetime="2020-06-21 19:20">21.06.2020</time>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<article class="post">
+  <div class="post__header post__header--preview">
+    <a href="post.html">
+      <img
+        class="post__preview"
+        src="assets/images/post-2.jpg"
+        alt="Lorem ipsum dolor sit amet consectetur"
+      />
+    </a>
+  </div>
+  <div class="post__content">
+    <h2 class="post__title">
+      <a href="post.html">Lorem ipsum dolor sit amet consectetur.</a>
+    </h2>
+    <p class="post__description">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos
+      incidunt debitis quasi eum amet error distinctio quaerat. Vero quis quo
+      tempora, dolore qui soluta unde velit odio, asperiores amet quasi cumque
+      rem beatae minus perferendis? Quidem omnis consequuntur nam. Dignissimos!
+    </p>
+  </div>
+  <div class="post__footer">
+    <ul class="post__data">
+      <li class="post__data-item">
+        <time datetime="2020-06-21 19:20">21.06.2020</time>
+      </li>
+      <li class="post__data-item">
+        <a href="post.html">Lorem, ipsum.</a>
+      </li>
+    </ul>
+    <a class="post__read" href="#">read</a>
+  </div>
+</article>
+
+<article class="post">
+  <div class="post__header">
+    <div class="embed">
+      <iframe
+        src="https://www.youtube.com/embed/ao4RCon11eY"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </div>
+  <div class="post__content">
+    <h2 class="post__title">
+      <a href="post.html">Lorem ipsum dolor sit amet consectetur.</a>
+    </h2>
+  </div>
+  <div class="post__footer">
+    <ul class="post__data">
+      <li class="post__data-item">
+        <time datetime="2020-06-21 19:20">21.06.2020</time>
+      </li>
+      <li class="post__data-item">
+        <a href="post.html">Lorem, ipsum.</a>
+      </li>
+    </ul>
+    <a class="post__read" href="post.html">comment</a>
+  </div>
+</article>
+
+<article class="post">
+  <div class="post__header post__header--preview">
+    <a href="post.html">
+      <img
+        class="post__preview"
+        src="assets/images/post-3.jpg"
+        alt="Lorem ipsum dolor sit amet consectetur"
+      />
+    </a>
+  </div>
+  <div class="post__content">
+    <h2 class="post__title">
+      <a href="post.html">Lorem ipsum dolor sit amet consectetur.</a>
+    </h2>
+    <p class="post__description">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos
+      incidunt debitis quasi eum amet error distinctio quaerat. Vero quis quo
+      tempora, dolore qui soluta unde velit odio, asperiores amet quasi cumque
+      rem beatae minus perferendis? Quidem omnis consequuntur nam. Dignissimos!
+    </p>
+  </div>
+  <div class="post__footer">
+    <ul class="post__data">
+      <li class="post__data-item">
+        <time datetime="2020-06-21 19:20">21.06.2020</time>
+      </li>
+      <li class="post__data-item">
+        <a href="#">Lorem, ipsum.</a>
+      </li>
+    </ul>
+    <a class="post__read" href="post.html">perfecto</a>
+  </div>
+</article>
+
+<ul class="pagination">
+  <li class="pagination__item">
+    <a class="pagination__link" href="#"> &lt; </a>
+  </li>
+  <li class="pagination__item">
+    <a class="pagination__link active" href="#"> 1 </a>
+  </li>
+  <li class="pagination__item">
+    <a class="pagination__link" href="#"> 2 </a>
+  </li>
+  <li class="pagination__item">
+    <a class="pagination__link" href="#"> 3 </a>
+  </li>
+  <li class="pagination__item">
+    <a class="pagination__link" href="#"> &gt; </a>
+  </li>
+</ul>
