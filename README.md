@@ -1,1 +1,2 @@
-# deadscssp-bp-v1
+# non deployed!
+node js + gulp + sass/scss + js + modal windows
